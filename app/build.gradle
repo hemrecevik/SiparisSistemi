@@ -17,6 +17,7 @@ android {
         }
     }
 }
+//Parse Kodlarını kullanabilmek için
 ext {
     parseVersion = "1.17.3"
 }
@@ -27,7 +28,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-
+    //Parse Kodlarını kullanabilmek için
     implementation "com.parse:parse-android:$parseVersion"
     implementation "com.parse:parse-fcm-android:$parseVersion"
 }
