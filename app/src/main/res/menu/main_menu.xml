@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/AdresEkle" android:title="Adres Ekle"></item>
+    <item android:id="@+id/Bilgilerim" android:title="Bilgilerim"></item>
     <item android:id="@+id/CikisYap" android:title="Çıkış Yap"></item>
 
 

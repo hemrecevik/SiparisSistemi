@@ -29,7 +29,7 @@ public class AnaSayfa extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        if(item.getItemId() == R.id.AdresEkle)
+        if(item.getItemId() == R.id.Bilgilerim)
         {
             Intent intent = new Intent(getApplicationContext(),Bilgilerim.class);
             startActivity(intent);
